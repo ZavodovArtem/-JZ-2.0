@@ -1,0 +1,75 @@
+@media screen and (max-width: 768px) {
+    .App{
+        .header{
+            .headerOneBlock{
+                width: 768px;
+                .headerOneBlockLogo{
+                    width: 180px;
+                }
+            }
+            .headerTwoBlock{
+                position: relative;
+                .headerTwoBlockWhite{
+                    margin-left: 170px;
+                    margin-top: 30px;
+                    font-size: 16px;
+                }
+                .headerTwoBlockBlack{
+                    margin-left: 330px;
+                    margin-top: 60px;
+                    font-size: 20px;    
+                }
+                .headerTwoBlockBack{
+                    margin-top: -120px;
+                }
+                .headerTwoBlockJZ{
+                    width: 300px;
+                    margin-top: -110px;
+                    margin-left: -310px;
+                }
+            }
+        }
+    
+        .BodySewingAll{
+            width: 768px;
+            .BodySewingGrid{
+                .BodySewingGridUp{
+                    .BodySewingGridImg{
+                        width: 100px;
+                    }
+                }
+                .BodySewingGridDown{
+                    .BodySewingGridImg{
+                        width: 100px;
+                    }
+                }
+            }
+        }
+        .bodyPhilosophyBackground{
+            .bodyPhilosophy{
+                width: 768px;
+            }
+        }
+        .BodyStep{
+            .BodyStepUp{
+                width: 768px;
+            }
+            .BodyStepDown{
+                width: 768px;
+            }
+        }
+        .bodyMoney{
+            width: 768px;
+        }
+        .bodyForm{
+            .bodyFormAll{
+                .bodyFormGroup{
+                    width: 768px;
+                }
+            }
+        }
+        .footer{
+            width: 768px;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+
+
+@import '../../scss_media/media_1024.scss';
+@import '../../scss_media/media_768.scss';
+@import '../../scss_media/media_425.scss';
+@import '../../scss_media/media_375.scss';
+@import '../../scss_media/media_320.scss';
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    // padding: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    .footerPolicy{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footerMessage{
+        margin-right: 10px;
+    }
+}

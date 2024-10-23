@@ -1,0 +1,83 @@
+.hamburgerMain{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    cursor: pointer;
+
+
+    .hamburger{
+        position: relative;
+        z-index: 4;
+       cursor: pointer;
+ 
+       
+    }
+    .hamburgerMenu{
+        position: absolute;
+        z-index: 4;
+        top: 150px;
+        right: 100px;
+        text-align: right;
+ 
+        
+
+        .hamburgerMenuUllll{
+            list-style-type: none;
+            margin: 0  auto;
+            margin-left: 20px;
+            .hamburgerMenuLi{
+                margin: 5px;
+                font-size: 20px;
+
+            }
+
+        }
+        
+        .hamburgerMenuUl{
+            list-style-type: none;
+            margin: 0  auto;  
+            display: flex;
+            justify-content: space-between;
+            text-align: right;
+
+            .hamburgerMenuLi{
+                margin: 20px; 
+                // text-align: right;
+            }
+        }
+    }
+    // .testLi{
+    //     color: #F2E8E5;
+    // }
+    
+    .image {
+        transition: transform 0.3s ease, opacity 0.3s ease;
+        transform-origin: center; 
+    }
+    
+    .image.pop{ 
+        transform: scale(1.2) rotate(90deg); 
+    }
+    
+    .image.rotated{
+        transform: rotate(90deg); 
+        transition-delay: 0.1s;
+    }
+}
+
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.animated-letter {
+    opacity: 0;
+    transform: translateY(-20px);
+    /* Установите продолжительность анимации по вашему усмотрению */
+    animation: fadeInUp 0.5s forwards;
+}

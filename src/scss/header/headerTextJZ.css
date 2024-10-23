@@ -1,0 +1,22 @@
+.text-animationJZ {
+    opacity: 0;
+    transform: translateY(100%); /* Начальная позиция текста */
+  }
+  
+  .text-animationJZ.visible {
+    opacity: 1;
+    transform: translateY(0); /* Конечная позиция текста */
+  }
+  
+  .text-animation {
+    transition: transform ease-out, opacity ease-out;
+  }
+  
+
+  .textJZ{
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 250px;
+    z-index: 2;
+    font-size: 48px;  
+  }

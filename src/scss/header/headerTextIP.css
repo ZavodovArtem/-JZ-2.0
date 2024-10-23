@@ -1,0 +1,22 @@
+.text-animationIP {
+  opacity: 0;
+  transform: translateY(-100%); /* Начальная позиция текста */
+}
+
+.text-animationIP.visible {
+  opacity: 1;
+  transform: translateY(0); /* Конечная позиция текста */
+}
+
+.text-animation {
+  transition: transform ease-out, opacity ease-out;
+}
+
+
+.textIP{
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 10%;
+  z-index: 2;
+  font-size: 36px;
+}

@@ -1,0 +1,84 @@
+
+
+
+    .BodySewingHDiv{
+        width: 1600px;
+        margin: 0 auto;
+        .BodySewingH{
+            display: flex;
+            height: 100px;
+            align-items: center;
+            
+            
+            .letter {
+                opacity: 0;
+                animation: fadeIn 2.10s ease forwards;
+                display: inline-block;
+            }
+            .space {
+                display: inline-block;
+                width: 0.5em; 
+                opacity: 0;
+                animation: fadeIn 2.10s ease forwards;
+            }   
+        }
+    }
+    .BodySewingGrid{
+        padding: 100px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .BodySewingGridUp{
+            display: flex;
+            justify-content: space-between;
+            width: 1600px;
+            margin: 0 auto;    
+
+            .BodySewingGridP{
+                font-size: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            
+            .StepItem{
+                display: flex;
+                justify-content: space-between;
+                opacity: 0;
+                transition: opacity 2.10s ease;
+                
+                &.visible{
+                    opacity: 1;
+                }
+                .BodySewingGridImg{
+                    color: red;
+                }
+            }
+        }
+        .BodySewingGridDown{
+            display: flex;
+            justify-content: space-between;
+            width: 1600px;
+            margin: 0 auto;
+
+            .BodySewingGridP{
+                font-size: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .StepItem{
+                display: flex;
+                justify-content: space-between;
+                opacity: 0;
+                transition: opacity 2.10s ease;
+                
+                &.visible{
+                    opacity: 1;
+                }
+            }
+        }
+
+    }

@@ -1,0 +1,74 @@
+@media screen and (max-width: 375px) {
+     .App{   
+        .header{
+                .headerOneBlock{
+                    width: 375px;
+                    .headerOneBlockLogo{
+                        width: 80px;
+                    }
+                }
+                .headerTwoBlock{
+                    position: relative;
+                    .headerTwoBlockWhite{
+                        margin-left: 40px;
+                        margin-top: -30px;
+                        font-size: 12px;
+                    }
+                    .headerTwoBlockBlack{
+                        margin-left: 120px;
+                        margin-top: 10px;
+                        font-size: 16px;    
+                    }
+                    .headerTwoBlockBack{
+                        margin-top: -100px;
+                    }
+                    .headerTwoBlockJZ{
+                        width: 140px;
+                        margin-top: -85px;
+                        margin-left: -150px;
+                    }
+                }
+            }
+            .BodySewingAll{
+                width: 375px;
+                .BodySewingGrid{
+                    .BodySewingGridUp{
+                        .BodySewingGridImg{
+                            width: 40px;
+                        }
+                    }
+                    .BodySewingGridDown{
+                        .BodySewingGridImg{
+                            width: 40px;
+                        }
+                    }
+                }
+            }
+            .bodyPhilosophyBackground{
+                .bodyPhilosophy{
+                    width: 375px;
+                }
+            }
+            .BodyStep{
+                .BodyStepUp{
+                    width: 375px;
+                }
+                .BodyStepDown{
+                    width: 375px;
+                }
+            }
+            .bodyMoney{
+                width: 375px;
+            }
+            .bodyForm{
+                .bodyFormAll{
+                    .bodyFormGroup{
+                        width: 375px;
+                    }
+                }
+            }
+            .footer{
+                width: 375px;
+            }
+    }
+}

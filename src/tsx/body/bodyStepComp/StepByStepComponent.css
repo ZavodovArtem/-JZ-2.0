@@ -1,0 +1,16 @@
+
+.StepByStepContainer {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
+/* 
+.StepItem {
+    opacity: 0;
+    transition: opacity 0.45s ease;
+    margin-bottom: 20px; 
+}
+
+.StepItem.visible {
+    opacity: 1;
+} */

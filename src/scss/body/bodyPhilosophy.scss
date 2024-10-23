@@ -1,0 +1,105 @@
+// ------------------media---------------------------
+@import '../../scss_media/media_1024.scss';
+@import '../../scss_media//media_768.scss';
+@import '../../scss_media//media_425.scss';
+@import '../../scss_media/media_375.scss';
+@import '../../scss_media/media_320.scss';
+// ----------------------------------------------------
+
+
+.bodyPhilosophyBackground{
+    background-color: #9E9782;
+    .bodyPhilosophy{
+        height: 1000px;
+        width: 1600px;
+        margin: 0 auto;
+        padding: 40px;
+        .backkOne{
+            color: white;
+            
+        .backkOnelamp{
+            width: 300px;
+            transform-origin: top center;
+            animation: swing 2s ease-in-out infinite;
+            margin-left: 700px;
+           
+
+            filter: grayscale(100%);
+            transition: filter 0.3s ease, mask-position 2s ease;
+            mask-image: linear-gradient(to top, black 0%, transparent 90%, );
+            mask-size: 100% 300%;
+            mask-position: 0 0%;
+        }
+
+        
+        
+        .backkOnelamp:hover {
+            animation: swings 1.5s infinite !important;
+
+
+            filter: grayscale(0%);
+            mask-position:  0 50%;
+        }
+
+        .backkOnePhilsophyH{
+            font-size: 30px;
+            margin-right: 900px;
+            padding: 50px;
+        }
+        .backkOnePhilsophyP{
+            font-size: 20px;
+            margin-right: 500px;
+            padding: 50px;
+            
+        }
+        
+
+        @keyframes swings {
+            0% {
+                transform: rotate(-15deg); /* раскачивание влево */
+            }
+            50%{
+                transform: rotate(15deg);
+            }
+            100%{
+                transform: rotate(-15deg);
+            }
+        }
+
+        @keyframes swing {
+            0% {
+                transform: rotate(-5deg); /* раскачивание влево */
+            }
+            50%{
+                transform: rotate(5deg);
+            }
+            100%{
+                transform: rotate(-5deg);
+            }
+        }
+  
+    }
+    .backkTwo{
+        .returnLamp{
+            width: 100px;
+        }
+    }   
+        
+        .bodyPhilosophyH{
+            font-size: 48px;
+            padding: 10px;
+            font-family: 'fontRegular';
+        }
+        .bodyPhilosophyMain{
+            display: flex;
+            justify-content: space-between;
+            .bodyPhilosophyMainP{
+                font-size: 32px;
+                width: 800px;
+                margin-top: 200px;
+                font-family: 'fontRegular';
+            }
+        }
+        
+    }
+}

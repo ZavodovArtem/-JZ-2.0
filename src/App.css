@@ -1,0 +1,67 @@
+
+.App {
+  text-align: center;
+  background-color: #F2E8E5;
+  margin: 0 auto;
+}
+
+
+
+.Appp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #F2E8E5;
+}
+
+.AppForLoader{
+  text-align: center;
+  background-color: #F2E8E5;
+  height: 1000px;
+ 
+}
+
+
+.loadere{
+  animation: colorize 3s infinite;
+}
+
+@keyframes colorize{
+  0% {filter: grayscale(100%);}
+  50% {filter: grayscale(0%);}
+  100% {filter: grayscale(100%);}
+}
+
+
+
+
+.loa{
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.loaOne{
+  animation-delay: 0.5s;
+}
+.loaTwo{
+  animation-delay: 1s;
+}
+.loaThree{
+  animation-delay: 1.5s;
+}
+.loaFour{
+  animation-delay: 2s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

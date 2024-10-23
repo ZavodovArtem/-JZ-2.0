@@ -1,0 +1,37 @@
+// ------------------media---------------------------
+@import '../../scss_media/media_1024.scss';
+@import '../../scss_media//media_768.scss';
+@import '../../scss_media//media_425.scss';
+@import '../../scss_media/media_375.scss';
+@import '../../scss_media/media_320.scss';
+// ----------------------------------------------------
+
+
+
+
+.bodyMoney{
+    display: flex;
+    width: 1600px;
+    margin: 0  auto;
+    height: 1000px;
+    align-items: center;
+    .bodyMoneyLeft{
+        position: absolute;
+        width: 850px;
+        font-size: 32px;
+        margin-top: 300px;
+        text-align: left;
+    }
+    .bodyMoneyMiddle{
+        display: flex;
+        margin: 0 auto;
+    }
+    .bodyMoneyRight{
+        position: absolute;
+        width: 600px;
+        font-size: 20px;
+        margin-left: 900px;
+        margin-top: -350px;
+        text-align: left;
+    }
+}

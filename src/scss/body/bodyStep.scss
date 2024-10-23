@@ -1,0 +1,182 @@
+// ------------------media---------------------------
+@import '../../scss_media/media_1024.scss';
+@import '../../scss_media//media_768.scss';
+@import '../../scss_media//media_425.scss';
+@import '../../scss_media/media_375.scss';
+@import '../../scss_media/media_320.scss';
+// ----------------------------------------------------
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.BodyStep{
+    justify-content: center;
+    
+    .BodyStepHDiv{
+        height: 100px;
+        width: 1600px;
+        margin: 0 auto;
+        
+    .BodyStepH{
+        display: flex;
+        text-align: left;
+        margin-left: 200px;
+       
+        .letter {
+            opacity: 0;
+            animation: fadeIn 2.10s ease forwards;
+            display: inline-block;
+        }
+
+        .space {
+            display: inline-block;
+            width: 0.5em; 
+            opacity: 0;
+            animation: fadeIn 2.10s ease forwards;
+        }
+        
+        
+    }
+}
+.StepByStepContainer{
+    .BodyStepUp{
+        display: flex;
+        justify-content: space-between;
+        width: 1600px;
+        margin: 0 auto;
+            
+        .StepItem{
+            display: flex;
+            justify-content: space-between;
+            opacity: 0;
+            transition: opacity 2.10s ease;
+            
+            &.visible{
+                opacity: 1;
+            }
+                .BodyStepUpOne{
+                    margin-top: 150px;
+                    width: 160px;
+                }
+                .BodyStepUpOneDiv{
+                    margin-top: 150px;
+                }
+        }
+    
+    
+        .StepItem{
+            opacity: 0;
+            transition: opacity 2.10s ease;
+            
+            &.visible{
+                opacity: 1;
+            }
+            .BodyStepUpTwo{
+                width: 160px;
+            }
+            .BodyStepUpTwoDiv{
+                margin-top: 170px;
+            }
+        }
+        .StepItem{
+            opacity: 0;
+            transition: opacity 2.10s ease;
+            
+            &.visible{
+                opacity: 1;
+            }
+            .BodyStepUpThree{
+                margin-top: 180px;
+                width: 160px;
+            }
+            .BodyStepUpThreeDiv{
+                margin-top: 150px;
+            }
+        }
+        .BodyStepUpFour{
+            margin-top: 100px;
+            width: 160px;
+        }
+    }
+    }
+    .StepItem{
+        opacity: 0;
+            transition: opacity 2.10s ease;
+            
+            &.visible{
+                opacity: 1;
+            }
+                .BodyStepMiddle{
+                    margin-left: 1500px;
+                        .BodyStepMiddleOne{
+                            display: flex;
+                            align-items: center;
+                            margin-top: -50px;
+                            margin-left: 100px;
+                        }
+                        .BodyStepMiddleTwo{
+                            display: flex;
+                            align-items: center;
+                            margin-left: 100px;
+                        }
+                }
+    }
+    .BodyStepDown{
+        display: flex;
+        justify-content: space-between;
+        width: 1600px;
+        margin: 0 auto;
+        .StepItem{
+            display: flex;
+            justify-content: space-between;
+
+            opacity: 0;
+            transition: opacity 2.10s ease;
+            
+            &.visible{
+                opacity: 1;
+            }
+            .BodyStepDownThree{
+                margin-right: 100px;
+                margin-bottom: 250px;
+                width: 160px;
+            }
+            .BodyStepDownThreeDiv{
+                margin-bottom: 150px;
+            }
+        }
+        .StepItem{
+
+            opacity: 0;
+            transition: opacity 2.10s ease;
+            
+            &.visible{
+                opacity: 1;
+            }
+            .BodyStepDownTwo{
+                margin-bottom: 300px;
+                width: 160px;
+            }
+        }
+        .StepItem{
+
+            opacity: 0;
+            transition: opacity 2.10s ease;
+            
+            &.visible{
+                opacity: 1;
+            }
+            .BodyStepDownOne{
+                margin-bottom: 350px;
+                width: 160px;
+            }
+        }
+    }
+}
+
+

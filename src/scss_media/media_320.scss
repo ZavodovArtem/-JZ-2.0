@@ -1,0 +1,74 @@
+@media screen and (max-width: 320px) {
+    .App{
+        .header{
+                .headerOneBlock{
+                    width: 320px;
+                    .headerOneBlockLogo{
+                        width: 50px;
+                    }
+                }
+                .headerTwoBlock{
+                    position: relative;
+                    .headerTwoBlockWhite{
+                        margin-left: 20px;
+                        margin-top: -30px;
+                        font-size: 10px;
+                    }
+                    .headerTwoBlockBlack{
+                        margin-left: 100px;
+                        margin-top: -10px;
+                        font-size: 13px;    
+                    }
+                    .headerTwoBlockBack{
+                        margin-top: -100px;
+                    }
+                    .headerTwoBlockJZ{
+                        width: 120px;
+                        margin-top: -87px;
+                        margin-left: -120px;
+                    }
+                }
+        }
+        .BodySewingAll{
+            width: 320px;
+            .BodySewingGrid{
+                .BodySewingGridUp{
+                    .BodySewingGridImg{
+                        width: 20px;
+                    }
+                }
+                .BodySewingGridDown{
+                    .BodySewingGridImg{
+                        width: 20px;
+                    }
+                }
+            }
+        }
+        .bodyPhilosophyBackground{
+            .bodyPhilosophy{
+                width: 320px;
+            }
+        }
+        .BodyStep{
+            .BodyStepUp{
+                width: 320px;
+            }
+            .BodyStepDown{
+                width: 320px;
+            }
+        }
+        .bodyMoney{
+            width: 320px;
+        }
+        .bodyForm{
+            .bodyFormAll{
+                .bodyFormGroup{
+                    width: 320px;
+                }
+            }
+        }
+        .footer{
+            width: 320px;
+        }
+    } 
+}

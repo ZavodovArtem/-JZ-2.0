@@ -1,0 +1,68 @@
+
+
+// ------------------media---------------------------
+@import '../../scss_media/media_1024.scss';
+@import '../../scss_media//media_768.scss';
+@import '../../scss_media//media_425.scss';
+@import '../../scss_media/media_375.scss';
+@import '../../scss_media/media_320.scss';
+// ----------------------------------------------------
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.BodySewingAll{
+   
+    .BodySewingHDiv{
+        width: 1600px;
+        margin: 0 auto;
+        
+        .BodySewingH{
+            display: flex;
+            
+            
+            .letter {
+                opacity: 0;
+                animation: fadeIn 2.10s ease forwards;
+                display: inline-block;
+            }
+            .space {
+                display: inline-block;
+                width: 0.5em; 
+                opacity: 0;
+                animation: fadeIn 2.10s ease forwards;
+            }   
+        }
+    }
+    .BodySewingGrid{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .BodySewingGridUp{
+            display: flex;
+            justify-content: space-between;
+            .BodySewingGridP{
+                font-size: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+        .BodySewingGridDown{
+            display: flex;
+            justify-content: space-between;
+            .BodySewingGridP{
+                font-size: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+    }
+}
